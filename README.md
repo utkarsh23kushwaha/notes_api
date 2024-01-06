@@ -1,6 +1,6 @@
 # API Documentation
 
-This document provides information about the features and usage of the API.
+This document provides information about the features and usage of the Notes API.
 
 ## Table of Contents
 - [Authentication](#authentication)
@@ -22,7 +22,7 @@ The API uses token-based authentication using JSON Web Tokens (JWT). To access p
 
 ## Rate Limiting
 
-The API has rate limiting in place to manage server load. Exceeding the allowed number of requests within a specified time frame will result in a rate limit error.
+The API has rate limiting in place to manage server load. Exceeding the allowed number of requests within a specified time frame will result in a rate limit error. Each endpoint has different Rate Limits assigned to it 
 
 ## Endpoints
 
@@ -83,10 +83,9 @@ The API has rate limiting in place to manage server load. Exceeding the allowed 
 ## Running and Testing
 
 1. Clone the repository.
-2. Set up a virtual environment and install dependencies.
+2. Set up a virtual environment and install dependencies using `pip install -r requirements.txt`.
 3. Run the Django development server: `python manage.py runserver`
 4. Use the provided test script or tools like `curl` to interact with the API.
 
 ---
 
-Feel free to customize this template based on your specific API features and requirements. Include any additional details, such as request/response formats, error handling, or special considerations.
