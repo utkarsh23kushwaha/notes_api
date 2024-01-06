@@ -1,0 +1,12 @@
+djangorestframework
+django
+djangorestframework-simplejwt
+psycopg2-binary 
+simplejwt
+urllib3
+user-agents
+httpie
+pytz
+django-ratelimit  
+django-cors-headers  
+dj-database-url 
