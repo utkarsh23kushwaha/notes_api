@@ -82,10 +82,13 @@ The API has rate limiting in place to manage server load. Exceeding the allowed 
 
 ## Running and Testing
 
-1. Clone the repository.
-2. Set up a virtual environment and install dependencies using `pip install -r requirements.txt`.
-3. Run the Django development server: `python manage.py runserver`
-4. Use the provided test script or tools like `curl` to interact with the API.
+1. Clone the repository. `git clone https://github.com/utkarsh23kushwaha/notes_api.git` <br>
+2. `cd notes_api/test_app`
+3. Set up a virtual environment and install dependencies using `pip install -r requirements.txt`. 
+4. Run the Django development server: `python manage.py runserver`
+5. Use the provided test script or tools like `curl` to interact with the API :
+   Go to `cd tests/` <br>
+   Run `python tests.py`
 
 ---
 
