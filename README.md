@@ -86,9 +86,10 @@ The API has rate limiting in place to manage server load. Exceeding the allowed 
 2. `cd notes_api/test_app`
 3. Set up a virtual environment and install dependencies using `pip install -r requirements.txt`. 
 4. Run the Django development server: `python manage.py runserver`
-5. Use the provided test script or tools like `curl` to interact with the API :
+5. In a separate terminal : <br>
    Go to `cd tests/` <br>
    Run `python tests.py`
+6. Follow the prompts to test all the functionalities of the API
 
 ---
 
