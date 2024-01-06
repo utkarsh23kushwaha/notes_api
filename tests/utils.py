@@ -13,10 +13,7 @@ class TerminalColors:
     YELLOW = "\033[93m"
     BLUE = "\033[94m"
 
-br = TerminalColors.BOLD + TerminalColors.RED
-bg = TerminalColors.BOLD + TerminalColors.GREEN
-by = TerminalColors.BOLD + TerminalColors.YELLOW
-bb = TerminalColors.BOLD + TerminalColors.BLUE
+
 def make_request(method, endpoint, data=None):
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {AUTH_TOKEN}"}
    
