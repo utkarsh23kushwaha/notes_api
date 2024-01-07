@@ -1,6 +1,7 @@
 # API Documentation
 
-This document provides information about the features and usage of the Notes API.
+This document provides information about the features and usage of the Notes API. <br>
+Framework : DRF, DB : PostgresDB (ElephantSQL cloudDB instance), DB Index : GinIndexes, , Authentication Mechanism: Token Based (JWT)
 
 ## Table of Contents
 - [Authentication](#authentication)
