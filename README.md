@@ -90,6 +90,6 @@ The API has rate limiting in place to manage server load. Exceeding the allowed 
    Go to `cd tests/` <br>
    Run `python tests.py`
 6. Follow the prompts to test all the functionalities of the API
-
+7. For testing purposes two users have already been registered with usernames user1 and user2 respectively. Their login passwords are same as their usernames.
 ---
 
